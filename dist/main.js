@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `h1 {\n    color: blue;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `h1 {\n    color: blue;\n}\n\n#nav-bar {\n    display: flex;\n    justify-content: space-evenly;\n    align-items: center;\n    background-color: #d9d8d0;\n    height: 2em;\n}\n\n#nav-bar div {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n\n    height: 2em;\n    width: 100px;\n}\n\n#nav-bar div:hover {\n    background-color: #f2f1f1;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -110,6 +110,16 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createMenuPage: () => (/* binding */ createMenuPage)\n/* harmony export */ });\nfunction createMenuPage() {\n    console.log(\"empty\");\n}\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/contact.js?");
+
+/***/ }),
+
 /***/ "./src/homepage.js":
 /*!*************************!*\
   !*** ./src/homepage.js ***!
@@ -126,7 +136,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _homepage_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./homepage.js */ \"./src/homepage.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n(0,_homepage_js__WEBPACK_IMPORTED_MODULE_0__.createHomePage)();\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _homepage_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./homepage.js */ \"./src/homepage.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact.js */ \"./src/contact.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n\n\nfunction createNavBar() {\n    // nav bar container\n    const navBarDiv = document.querySelector(\"#nav-bar\");\n\n    // initialize nav bar buttons and store in array\n    const navHomeDiv = document.createElement(\"div\");\n    navHomeDiv.textContent = \"Home\";\n\n    const navMenuDiv = document.createElement(\"div\");\n    navMenuDiv.textContent = \"Menu\";\n\n    const navContactDiv = document.createElement(\"div\");\n    navContactDiv.textContent = \"Contact Us\";\n\n    const navBarItems = [\n        {\n            element: navHomeDiv,\n            func: _homepage_js__WEBPACK_IMPORTED_MODULE_0__.createHomePage\n        },\n        {\n            element: navMenuDiv,\n            func: _menu_js__WEBPACK_IMPORTED_MODULE_1__.createMenuPage\n        },\n        {\n            element: navContactDiv,\n            func: _contact_js__WEBPACK_IMPORTED_MODULE_2__.createContactPage\n        }\n    ];\n\n    const resetPage = () => {\n\n    }\n\n    // add css styles to nav bar buttons\n    for (let i = 0; i < navBarItems.length; i++) {\n        navBarDiv.appendChild(navBarItems[i].element);\n    }\n\n    return {\n        navBarItems,\n    }\n};\n\n(0,_homepage_js__WEBPACK_IMPORTED_MODULE_0__.createHomePage)();\n\nfunction loadPages() {\n    const navBarItems = createNavBar();\n\n    const contentDiv = document.querySelector(\"#content\");\n\n    const resetPage = () => {\n        contentDiv.replaceChildren();\n    }\n}\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createMenuPage: () => (/* binding */ createMenuPage)\n/* harmony export */ });\nfunction createMenuPage() {\n    const contentDiv = document.querySelector(\"#content\");\n\n    const h1 = document.createElement(\"h1\");\n    h1.textContent = \"Today's menu:\";\n    contentDiv.appendChild(h1);\n\n    const ul = document.createElement(\"ul\");\n    contentDiv.appendChild(ul);\n\n    const items = [\n        {\n            name: \"coffee\",\n            price: \"$2.50\"\n        },\n        {\n            name: \"croissant\",\n            price: \"$3.50\"\n        },\n        {\n            name: \"pain au chocolat\",\n            price: \"$3.50\"\n        },\n        {\n            name: \"scrambled eggs\",\n            price: \"$6.00\"\n        },\n        {\n            name: \"egg benedict\",\n            price: \"$10.00\"\n        }\n    ];\n\n    for (let i = 0; i < 5; i++) {\n        const menuItem = document.createElement(\"li\");\n        ul.appendChild(menuItem);\n\n        menuItem.textContent = items[i].price + \" - \" + items[i].name;\n    }\n}\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ }),
 
